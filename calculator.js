@@ -9,9 +9,9 @@ function getInputValues() {
 }
 
 function add() {
-    const { num1, num2 } = getInputValues();
-    const result = num1 + num2;
-    resultContainer.innerText = result;
+  const { num1, num2 } = getInputValues();
+  const result = num2 + num1;
+  resultContainer.innerText = result;
 }
 
 function subtract() {
@@ -21,19 +21,19 @@ function subtract() {
 }
 
 function multiply() {
-    const { num1, num2 } = getInputValues();
-    const result = num1 * num2;
-    resultContainer.innerText = result;
+  const { num1, num2 } = getInputValues();
+  const result = num1 * num2;
+  resultContainer.innerText = result;
 }
 
 function divide() {
-    const { num1, num2 } = getInputValues();
-    const result = num1/num2;
-    resultContainer.innerText = result;
+  const { num1, num2 } = getInputValues();
+  const result = num1 / num2;
+  resultContainer.innerText = result;
 }
 
 function modulus() {
-    const { num1, num2 } = getInputValues();
-    const result = num1 % num2;
-    resultContainer.innerText = result;
+  const { num1, num2 } = getInputValues();
+  const result = num1 % num2;
+  resultContainer.innerText = result;
 }

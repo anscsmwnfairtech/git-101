@@ -22,7 +22,7 @@ function subtract() {
 
 function multiply() {
     const { num1, num2 } = getInputValues();
-    const result = "Function not implemented";
+    const result = num1 * num2;
     resultContainer.innerText = result;
 }
 

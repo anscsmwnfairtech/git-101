@@ -33,7 +33,7 @@ function divide() {
 }
 
 function modulus() {
-  const { num1, num2 } = getInputValues();
-  const result = "Function not implemented";
-  resultContainer.innerText = result;
+    const { num1, num2 } = getInputValues();
+    const result = num1 % num2;
+    resultContainer.innerText = result;
 }
